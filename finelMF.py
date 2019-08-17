@@ -1,6 +1,4 @@
 
-import matplotlib
-import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import csv
@@ -157,7 +155,7 @@ csv_writer.writerow(['Arabic', 'French', 'English','Historique','Geographiqye','
 
 
 for k in range(startpoint,endingPoint):
-    print("for user : "+str(k))
+    #print("for user : "+str(k))
     l=[]
     for i in range(len(data.columns)-1):
         #notes[data.columns[i]]=mf.get_rating(k,i)*20
