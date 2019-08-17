@@ -1,11 +1,15 @@
-# emo
-emotion recognition from facial expression using CNN
-
+# matrixfact 
+a programm to predict the student prefomance based on it s past data and other student history using matrix factorzation technique 
+just heads up but there is a little bit of algbere involved
 
 ## Getting Started
 
 to download this project you can download it directly in the format of zip file or using the command :
 git clone https://github.com/amine-sakka/matrixfact.git
+
+you need to files to exist next to the programm 
+semester1.csv (data of the students previsly )
+toPredict.csv students data to predict where 0 present the nb to predict 
 
 ### Prerequisites
 
@@ -22,6 +26,7 @@ csv
 numpy
 ```
 
+you need the semester1.csv file to existe next to the main program finelMF.py
 
 
 ### Installing
@@ -49,27 +54,16 @@ pip install numpy
 ```
 
 
-
 ## Running the programm
 
-the program consist of tow parts train and emo you can use my model model.h5 or you can retrain it 
-to train the model all you have to do is run trains.py using the command 
-```
-python3 train.py 
-```
-or if you have a python idle you can just run it from there
+the program consist of one part  finelMF the programm needs takes the file sesmester1.csv history data of student and lean from it so that file is nessecair 
 
-to test the model all you have to do is run the command 
+to run the programm you need to use the command
 ```
-python3 emo.bp 
+python3 fibelMF.py 
 ```
-### the training 
+or if you have a python idle you can just run it from there after running the programm a file Prediction.csv will be created in your directery
 
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ### And coding style tests
 
