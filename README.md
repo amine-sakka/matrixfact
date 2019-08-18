@@ -42,11 +42,49 @@ you need the semester1.csv file to existe next to the main program finelMF.py
 ### Installing
 
 A step by step guide to install the prerequisite & libraries 
-                                            Installing python3 & pip
+                                            
+Installing python3 & pip
+
 if you have python & pip installed you can skip this part else :
-First, we are gonna Check if you have pip  type 
+First, 
 
+we are gonna Check if you have pip  type 
 
+``` 
+pip --version   
+```
+If you get responses similar to this  :
+``` 
+pip 19.1.1 from /usr/local/lib/python3.6/dist-packages/pip (python 3.6)
+```
+then you can skip this part else, please follow this tutorial that will show you how to install python and pip on ubunto
+```
+https://www.youtube.com/watch?v=ivBYd1IT408
+```
+
+Installing the libraries
+
+You can install all the libraries together in one step using the command 
+ ```
+sudo pip install -r requirements.txt
+ ```
+ you should see something like this
+
+![Screenshot from 2019-08-18 11-59-03](https://user-images.githubusercontent.com/43292310/63223577-a567ed80-c1af-11e9-973a-9729c16d38d8.png)
+
+Or you can install them individually.
+To install pandas
+```
+sudo pip install pandas
+```
+To install csv
+```
+sudo pip install python-csv
+```
+To install numpy 
+```
+sudo pip install numpy
+```
 
 ## Running the programm
 
