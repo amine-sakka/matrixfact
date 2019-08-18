@@ -43,7 +43,7 @@ sudo pip install pandas
 ```
 To install csv
 ```
-sudo pip install csv
+sudo pip install python-csv
 ```
 
 To install numpy 
