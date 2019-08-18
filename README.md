@@ -1,15 +1,14 @@
 # matrixfact 
-a programm to predict the student prefomance based on it s past data and other student history using matrix factorzation technique 
-just heads up but there is a little bit of algbere involved
+A program to predict the student performance based on its past data and other student history using matrix factorization technique.
+Just a heads up, but there is a little bit of algebra involved
 
 ## Getting Started
 
 to download this project you can download it directly in the format of zip file or using the command :
 git clone https://github.com/amine-sakka/matrixfact.git
 
-you need to files to exist next to the programm 
-semester1.csv (data of the students previsly )
-toPredict.csv students data to predict where 0 present the nb to predict 
+You need two files to exist next to the program semester1.csv (data of the students previously) 
+toPredict.csv students' data to predict where 0 represent the student exam notes to predict 
 
 ### Prerequisites
 
@@ -56,13 +55,19 @@ pip install numpy
 
 ## Running the programm
 
-the program consist of one part  finelMF the programm needs takes the file sesmester1.csv history data of student and lean from it so that file is nessecair 
+The program consist of one part finelMF the program needs takes the file sesmester1.csv history data of all the students
+and it also take the file toPredict.csv .
+
+toPredict.csv represent the students you want to predict their average the file toPredict.csv contains the notes of the students that they got and the exam mark that the student didn t get will be represented by a zero 0.0 these are our targets we are gonna try to predict these so will be able to calculate the final average the average of the semester.
 
 to run the programm you need to use the command
 ```
-python3 fibelMF.py 
+python3 finelMF.py 
 ```
-or if you have a python idle you can just run it from there after running the programm a file Prediction.csv will be created in your directery
+Or if you have a python idle you can just run it from there .
+After running the program a file Prediction.csv will be created in your directory
+
+Prediction.csv contains the result of our program, it will contain the student and their exams notes all of the exams and the average of the student during the semester
 
 
 ### And coding style tests
