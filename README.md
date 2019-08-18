@@ -9,6 +9,10 @@ git clone https://github.com/amine-sakka/matrixfact.git
 
 You need two files to exist next to the program semester1.csv (data of the students previously) 
 toPredict.csv students' data to predict where 0 represent the student exam notes to predict 
+this how the toPredict.csv file looks like
+
+![Screenshot_2019-08-18 finelMF](https://user-images.githubusercontent.com/43292310/63224040-7e60ea00-c1b6-11e9-8570-bd987de12290.png)
+
 
 ### Prerequisites
 
@@ -83,6 +87,11 @@ After running the program a file Prediction.csv will be created in your director
 ![Screenshot from 2019-08-18 12-19-19](https://user-images.githubusercontent.com/43292310/63223775-84ed6280-c1b2-11e9-99b1-871eb1b3b404.png)
 
 Prediction.csv contains the result of our program, it will contain the student and their exams notes all of the exams and the average of the student during the semester
+and this how Prediction.csv file looks like
+
+![Screenshot_2019-08-18 finelMF(1)](https://user-images.githubusercontent.com/43292310/63224056-ab150180-c1b6-11e9-8faa-1e6b9cc9c684.png)
+
+the same as toPredict.csv  only nthe zeros 0.0 has been replaced by the prediction
 
 
 ### And coding style tests
