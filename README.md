@@ -37,17 +37,17 @@ you can install all the libraries together in one step using the command
 pip install -r requirements.txt
 ```
 
-or you can install theme individually
-to install pandas
+or you can install theme individually.
+To install pandas
 ```
 pip install pandas
 ```
-to install csv
+To install csv
 ```
 pip install csv
 ```
 
-to install numpy 
+To install numpy 
 ```
 pip install numpy
 ```
