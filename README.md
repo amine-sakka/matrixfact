@@ -73,6 +73,10 @@ you will get this
 
 the program will take time to finish but in the end you will get something like this
 
+![Screenshot from 2019-08-18 12-13-22](https://user-images.githubusercontent.com/43292310/63223740-1a3c2700-c1b2-11e9-97f7-04607f639111.png)
+
+If you see finish that means everything worked out smoothly
+
 Or if you have a python idle you can just run it from there .
 After running the program a file Prediction.csv will be created in your directory
 
