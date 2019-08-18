@@ -33,22 +33,22 @@ you need the semester1.csv file to existe next to the main program finelMF.py
 A step by step guide to install the prerequisite libraries You can install all the libraries together in one step using the command
 
 ```
-pip install -r requirements.txt
+sudo pip install -r requirements.txt
 ```
 
 Or you can install them individually.
 To install pandas
 ```
-pip install pandas
+sudo pip install pandas
 ```
 To install csv
 ```
-pip install csv
+sudo pip install csv
 ```
 
 To install numpy 
 ```
-pip install numpy
+sudo pip install numpy
 ```
 
 
