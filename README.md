@@ -48,7 +48,7 @@ you need the semester1.csv file to existe next to the main program finelMF.py
 A step by step guide to install the prerequisite & libraries 
                                             
 
-we are gonna Check if you have pip  type 
+we are gonna Check if you have pip 
 
 ``` 
 pip --version   
@@ -127,7 +127,19 @@ the same as toPredict.csv  only nthe zeros 0.0 has been replaced by the predicti
 
 ### Breaking down the program
 
-Explain what these tests test and why
+Matrix factorization is a class of collaborative filtering algorithms used in recommender systems. Matrix factorization algorithms work by decomposing the user-item in our case student-subject interaction matrix into the product of two lower dimensionality rectangular matrices. 
+
+Now let us talk about finelMF.py  
+
+the program consists of a class MF matrix factorization which will be responsible for finding the tow matrix P, Q That factoziae our student-subject matrix
+
+Our first step will be to read the Semester1.csv and toPredict.csv files, then we create a student-subject matrix that we will use to predict the student performance
+
+Then we will create an instance of MF us In the student-subject matrix and start the training process
+
+The function moy takes a list of exam results and calculate the average of the student 
+
+Then we create a Prediction.csv & save all the data result of the MF in it
 
 ```
 Give an example
@@ -135,35 +147,25 @@ Give an example
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **sakka** 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
