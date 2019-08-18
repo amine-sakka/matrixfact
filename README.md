@@ -34,7 +34,11 @@ A step by step guide to install the prerequisite libraries You can install all t
 
 ```
 sudo pip install -r requirements.txt
+
 ```
+you should see something like this
+
+![Screenshot from 2019-08-18 11-59-03](https://user-images.githubusercontent.com/43292310/63223577-a567ed80-c1af-11e9-973a-9729c16d38d8.png)
 
 Or you can install them individually.
 To install pandas
