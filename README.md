@@ -80,6 +80,8 @@ If you see finish that means everything worked out smoothly
 Or if you have a python idle you can just run it from there .
 After running the program a file Prediction.csv will be created in your directory
 
+![Screenshot from 2019-08-18 12-19-19](https://user-images.githubusercontent.com/43292310/63223775-84ed6280-c1b2-11e9-99b1-871eb1b3b404.png)
+
 Prediction.csv contains the result of our program, it will contain the student and their exams notes all of the exams and the average of the student during the semester
 
 
