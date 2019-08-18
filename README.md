@@ -4,11 +4,16 @@ Just a heads up, but there is a little bit of algebra involved
 
 ## Getting Started
 
-to download this project you can download it directly in the format of zip file or using the command :
+to download this project you can download it directly using the download button or using the command :
+```
 git clone https://github.com/amine-sakka/matrixfact.git
+```
 
-You need two files to exist next to the program semester1.csv (data of the students previously) 
-toPredict.csv students' data to predict where 0 represent the student exam notes to predict.
+You need two files to exist next to the program 
+
+semester1.csv (data of the students previously) 
+
+toPredict.csv  students data to predict where 0 represent the student exam notes to predict.
 
 This how the toPredict.csv file looks like
 
@@ -17,11 +22,10 @@ This how the toPredict.csv file looks like
 
 ### Prerequisites
 
-you will need to install python
+you will need to install python & pip  ,pip is the package installer for Python. 
 ```
 python 3.5 or > 3.5
 ```
-you will need to install pip  ,pip is the package installer for Python. 
 
 ```
 pip 
@@ -43,10 +47,6 @@ you need the semester1.csv file to existe next to the main program finelMF.py
 
 A step by step guide to install the prerequisite & libraries 
                                             
-Installing python3 & pip
-
-if you have python & pip installed you can skip this part else :
-First, 
 
 we are gonna Check if you have pip  type 
 
@@ -58,6 +58,9 @@ If you get responses similar to this  :
 pip 19.1.1 from /usr/local/lib/python3.6/dist-packages/pip (python 3.6)
 ```
 then you can skip this part else, please follow this tutorial that will show you how to install python and pip on ubunto
+
+Installing python3 & pip
+
 ```
 https://www.youtube.com/watch?v=ivBYd1IT408
 ```
@@ -73,25 +76,26 @@ sudo pip install -r requirements.txt
 ![Screenshot from 2019-08-18 11-59-03](https://user-images.githubusercontent.com/43292310/63223577-a567ed80-c1af-11e9-973a-9729c16d38d8.png)
 
 Or you can install them individually.
-To install pandas
+
+To install pandas :
 ```
 sudo pip install pandas
 ```
-To install csv
+To install csv :
 ```
 sudo pip install python-csv
 ```
-To install numpy 
+To install numpy  :
 ```
 sudo pip install numpy
 ```
 
 ## Running the programm
 
-The program consist of one part finelMF the program needs takes the file sesmester1.csv history data of all the students
+The program consist of one part finelMF the program needs to takes the file sesmester1.csv (history data of all the students)
 and it also take the file toPredict.csv .
 
-toPredict.csv represent the students you want to predict their average the file toPredict.csv contains the notes of the students that they got and the exam mark that the student didn t get will be represented by a zero 0.0 these are our targets we are gonna try to predict these so will be able to calculate the final average the average of the semester.
+toPredict.csv represent the students you want to predict their average the file  contains the exams results of the students the marks they got and the exam marks that the student didn t get (it will be represented by a zero 0.0 these are our targets we are gonna try to predict these so that we will be able to calculate the final average the average of the semester).
 
 to run the program you need to use the command
 ```
