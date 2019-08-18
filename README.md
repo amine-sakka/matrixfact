@@ -67,6 +67,12 @@ to run the program you need to use the command
 ```
 python3 finelMF.py 
 ```
+you will get this 
+
+![Screenshot from 2019-08-18 12-06-32](https://user-images.githubusercontent.com/43292310/63223699-e4973e00-c1b1-11e9-8cd9-611aaab28a4d.png)
+
+the program will take time to finish but in the end you will get something like this
+
 Or if you have a python idle you can just run it from there .
 After running the program a file Prediction.csv will be created in your directory
 
