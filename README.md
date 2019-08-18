@@ -21,6 +21,12 @@ you will need to install python
 ```
 python 3.5 or > 3.5
 ```
+you will need to install pip  ,pip is the package installer for Python. 
+
+```
+pip 
+
+```
 
 python libraries you need to install
 
@@ -35,30 +41,51 @@ you need the semester1.csv file to existe next to the main program finelMF.py
 
 ### Installing
 
-A step by step guide to install the prerequisite libraries You can install all the libraries together in one step using the command
+A step by step guide to install the prerequisite & libraries 
+    #### Installing python3 & pip
+    if you have python & pip installed you can skip this part else :
 
-```
-sudo pip install -r requirements.txt
+    First, we are gonna Check if you have pip  type 
 
-```
-you should see something like this
+    ```
+    pip --version
+    ```
+    If you get responses similar to this  :
 
-![Screenshot from 2019-08-18 11-59-03](https://user-images.githubusercontent.com/43292310/63223577-a567ed80-c1af-11e9-973a-9729c16d38d8.png)
+    ```
+    pip 19.1.1 from /usr/local/lib/python3.6/dist-packages/pip (python 3.6)
+    ```
+    then you can skip this part else, please follow this tutorial that will show you how to install python and pip on ubunto
 
-Or you can install them individually.
-To install pandas
-```
-sudo pip install pandas
-```
-To install csv
-```
-sudo pip install python-csv
-```
+    ```
+    https://www.youtube.com/watch?v=ivBYd1IT408
+    ```
+    #### Installing the libraries
 
-To install numpy 
-```
-sudo pip install numpy
-```
+    You can install all the libraries together in one step using the command 
+
+    ```
+    sudo pip install -r requirements.txt
+
+    ```
+    you should see something like this
+
+    ![Screenshot from 2019-08-18 11-59-03](https://user-images.githubusercontent.com/43292310/63223577-a567ed80-c1af-11e9-973a-9729c16d38d8.png)
+
+    Or you can install them individually.
+    To install pandas
+    ```
+    sudo pip install pandas
+    ```
+    To install csv
+    ```
+    sudo pip install python-csv
+    ```
+
+    To install numpy 
+    ```
+    sudo pip install numpy
+    ```
 
 
 ## Running the programm
@@ -96,7 +123,7 @@ and this how Prediction.csv file looks like
 the same as toPredict.csv  only nthe zeros 0.0 has been replaced by the prediction
 
 
-### And coding style tests
+### Breaking down the program
 
 Explain what these tests test and why
 
