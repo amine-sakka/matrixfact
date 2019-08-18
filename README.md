@@ -30,14 +30,13 @@ you need the semester1.csv file to existe next to the main program finelMF.py
 
 ### Installing
 
-A step by step guid to install the prerequisites libraies
-you can install all the libraries together in one step using the command 
+A step by step guide to install the prerequisite libraries You can install all the libraries together in one step using the command
 
 ```
 pip install -r requirements.txt
 ```
 
-or you can install theme individually.
+Or you can install them individually.
 To install pandas
 ```
 pip install pandas
@@ -60,7 +59,7 @@ and it also take the file toPredict.csv .
 
 toPredict.csv represent the students you want to predict their average the file toPredict.csv contains the notes of the students that they got and the exam mark that the student didn t get will be represented by a zero 0.0 these are our targets we are gonna try to predict these so will be able to calculate the final average the average of the semester.
 
-to run the programm you need to use the command
+to run the program you need to use the command
 ```
 python3 finelMF.py 
 ```
